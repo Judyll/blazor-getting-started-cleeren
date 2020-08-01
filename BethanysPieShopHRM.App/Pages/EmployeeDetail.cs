@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.App.Pages
 {
-    public class EmployeeDetailBase : ComponentBase
+    public partial class EmployeeDetail
     {
         /**
          * This is part of a blazor life cycle. This is a good approach to initialize

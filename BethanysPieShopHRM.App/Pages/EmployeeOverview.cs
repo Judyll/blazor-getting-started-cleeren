@@ -1,12 +1,11 @@
 ﻿using BethanysPieShopHRM.Shared;
-using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.App.Pages
 {
-    public class EmployeeOverviewBase : ComponentBase
+    public partial class EmployeeOverview
     {
         /**
          * This is part of a blazor life cycle. This is a good approach to initialize
