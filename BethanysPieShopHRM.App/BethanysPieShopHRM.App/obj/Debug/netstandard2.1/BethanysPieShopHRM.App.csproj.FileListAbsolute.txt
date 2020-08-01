@@ -362,12 +362,14 @@ D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\Beth
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\bin\Debug\netstandard2.1\BethanysPieShopHRM.Shared.pdb
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EmployeeOverview.razor.g.cs
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\Razor\Pages\EmployeeOverview.razor.g.cs
-D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\nDa6Seh1wrTrIRkKw7sr94NNk4cNTmGCDq7ZcWlf6PA=.hash
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\ZZIfiL0dj4LVHyMkXQ1AxEwexESb3AbG2Yjj2CMGMNM=.hash
-D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\AWgoS-nVewyzNgbVsAjzzqv74ARzrLbEhlxu-ZfeGlo=.hash
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\hSW8KpObx6hbh25rR6082xbTyiCrF6rHbyFnC0_eR9Y=.hash
-D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\sU8BFvIrBhp6M-moRIBoHORfW31yKIpQX_KfD2US6Aw=.hash
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\compressed\_framework\_bin\BethanysPieShopHRM.Shared.dll.gz
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\compressed\_framework\_bin\BethanysPieShopHRM.Shared.pdb.gz
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\compressed\_framework\_bin\BethanysPieShopHRM.Shared.dll.br
 D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\compressed\_framework\_bin\BethanysPieShopHRM.Shared.pdb.br
+D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EmployeeDetail.razor.g.cs
+D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\Razor\Pages\EmployeeDetail.razor.g.cs
+D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\Jex-VrnnBug0EbuYrLgvOfMr0v9PW5a9WMkAckEJILU=.hash
+D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\OR94J9ujl_ED0o-avd8jIGCoGbaOhgpdC8qimAAP_cw=.hash
+D:\Documents\Dev-Repo\blazor-getting-started-cleeren\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\XL21RpgkY-cYjCthWS4TeBiKQTefN9fa3-XJUyAhl0w=.hash
