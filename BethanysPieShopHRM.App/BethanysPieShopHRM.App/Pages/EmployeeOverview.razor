@@ -1,0 +1,48 @@
+﻿<!--
+    We are specifying to the router that this is the component to be shown when
+    the /employeeoverview url is called
+-->
+@page "/employeeoverview"
+<!--
+    We are now inheriting from EmployeeOverviewBase so we no longer need the
+    code directive on this page and all our codes will be on a code-behind file
+    which is found in EmployeeOverviewBase
+-->
+@inherits EmployeeOverviewBase
+
+<h1 class="page-title">All Employees</h1>
+
+<!--
+    This checks if the employee is still null which means data has not yet been fetched.
+    If yes, then we will show the Loading... notification
+-->
+@if (Employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Employee ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Employees)
+            {
+                <tr>
+                    <td><img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg")" class="rounded-circle" /></td>
+                    <td>@employee.EmployeeId</td>
+                    <td>@employee.FirstName</td>
+                    <td>@employee.LastName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

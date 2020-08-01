@@ -1,6 +1,13 @@
-﻿@inherits LayoutComponentBase
+﻿<!--
+    Defines the structure of any page in the Blazor app. It is like the Master template
+    and we can define multiple ones if we want.
+-->
+@inherits LayoutComponentBase
 
 <div class="sidebar">
+    <!--
+        This is a menu that is on the left of the app.    
+    -->
     <NavMenu />
 </div>
 
@@ -10,6 +17,11 @@
     </div>
 
     <div class="content px-4">
+        <!--
+            This is the body placeholder. This will be replaced with the actual
+            content of our component. The components we have seen running are 
+            located on the Pages folder.
+        -->
         @Body
     </div>
 </div>

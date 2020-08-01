@@ -430,6 +430,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "BethanysPieShopHRM.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+        }
       }
     }
   },
@@ -1626,10 +1636,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BethanysPieShopHRM.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj",
+      "msbuildProject": "../../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "BethanysPieShopHRM.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
@@ -1661,7 +1677,11 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Documents\\Dev-Repo\\blazor-getting-started-cleeren\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+              "projectPath": "D:\\Documents\\Dev-Repo\\blazor-getting-started-cleeren\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
