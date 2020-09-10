@@ -1,12 +1,8 @@
-using System;
-using System.Net.Http;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Text;
+using BethanysPieShopHRM.App.Services;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
+using System;
+using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.App
 {
@@ -31,7 +27,14 @@ namespace BethanysPieShopHRM.App
              * The below is injecting the HttpClient in the services collection of our Blazor
              * application. 
              */
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            // builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            /**
+             * We are now bringing in the http client factory and its services and we are 
+             * registering the EmployeeDataService with its interface and it will automatically
+             * get an http client injected instance. We are setting it up that the base
+             * address is the endpoint of our API.
+             */
+            builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client => client.BaseAddress = new Uri("https://localhost:44340"));
             /**
              * This now runs the web assembly host.
              */

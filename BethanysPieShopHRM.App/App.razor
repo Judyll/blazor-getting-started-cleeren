@@ -8,6 +8,10 @@
 -->
 <Router AppAssembly="@typeof(Program).Assembly">
     <Found Context="routeData">
+        <!--
+            We are telling the router that our main layout is defined in the
+            /Shared/MainLayout.razor page
+        -->
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
     </Found>
     <NotFound>
